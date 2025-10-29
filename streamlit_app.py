@@ -8,5 +8,6 @@ st.set_page_config(
   page_title = 'Antonia Tobie | Portfolio'
   page_icon='🩷',
   layout = 'wide'
+)
 
 
