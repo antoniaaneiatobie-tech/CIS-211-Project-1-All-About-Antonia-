@@ -39,3 +39,4 @@ with col2:
   st.metric('Projects', '1', '💻')
 with col3:
   st.metric('skills', '5+', '🛠️')
+  
