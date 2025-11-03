@@ -23,3 +23,9 @@ st.markdown('''
 st.sidebar.title('🧭 Navigation')
 page = st.sidebar.radio('Go to',
                         ['🏠 Home', 😊 About', 🧳 Projects', 🛠️ Skills', 📝 Resume', 📲 Contact'])
+
+
+  # Home
+  if page == '🏠 Home':
+  st.markdown('<p class="main-header">Antonia Tobie</p>', unsafe_allow_html=True)
+  st.markdown('<p class="sub-header">A 21 Year Old College Student | Medgar Evers College</p>', unsafe_allow_html=True)
