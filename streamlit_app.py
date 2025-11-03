@@ -22,4 +22,4 @@ st.markdown('''
 # Sidebar
 st.sidebar.title('🧭 Navigation')
 page = st.sidebar.radio('Go to',
-                        ['🏠 Home', 🤚 About', 🧳 Projects', 🛠️ Skills', 📝 Resume',📲 Contact'])
+                        ['🏠 Home', 👀 About', 🧳 Projects', 🛠️ Skills', 📝 Resume',📲 Contact'])
