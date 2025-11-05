@@ -58,5 +58,5 @@ with col1:
             ''')
 with col2:
   # Placeholder for image
-   st.image('', use_column_width=True)
+   st.image(' Tengen .JPG', use_column_width=True)
   
