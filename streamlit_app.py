@@ -59,4 +59,20 @@ with col1:
 with col2:
   # Placeholder for image
    st.image(' Tengen .JPG', use_column_width=True)
+
+
+# About page
+elif page == '😊 About':
+ st.title(About Me')
+
+
+# Timeline of my CIS Journey
+st.subheader('🗺️ My Journey')
+with st.expander('2025 - Present: Medgar Evers College'):
+  st.write('''
+          - Major: Computer Information Systems 💻
+          - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems and AI
+          - Activities: Anime Watcher, Tennis Player and Video game lover
+          ''')
+  with st.expander('')
   
