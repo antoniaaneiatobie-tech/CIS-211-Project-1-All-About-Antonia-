@@ -48,7 +48,7 @@ col1, col2 = st.columns([2,1])
 with col1: 
   st.subheader('Welcome to my safe space! 👋')
   st.write('''
-             I am a 21 year old college student majoring in Computer Information Systems and i am learning Python for the first time, HTML, CSS and JavaScript to build innovative solutions.
+             I am a 21 year old college student majoring in Computer Information Systems and I am learning Python for the first time, HTML, CSS and JavaScript to build innovative solutions.
 
             🩷 **Current Focus:** Building interactive web applications with Streamlit
 
