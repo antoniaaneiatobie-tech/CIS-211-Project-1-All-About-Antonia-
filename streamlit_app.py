@@ -58,5 +58,5 @@ with col1:
             ''')
 with col2:
   # Placeholder for image
-   st.image('https://github.com/antoniaaneiatobie-tech/CIS-211-Project-1-All-About-Antonia-/blob/6b7c23e2f6e0662bee7d13998a708ab4b7cddba5/%20Tengen%20.JPG', use_column_width=True)
+   st.image('', use_column_width=True)
   
