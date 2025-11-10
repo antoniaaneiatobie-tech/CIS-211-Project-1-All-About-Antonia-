@@ -83,9 +83,42 @@ with st.expander('2025 - Present: Medgar Evers College'):
     with cols[i % 3]:
       st.info(f'🔷 {interest}')
 
-elif page == '🧳 Projects':
+  elif page == '🧳 Projects':
   st.title('My Projects')
-  st.write('Here are some projects I have worked on:')
+ elif page == '😊 About':
+    st.title('About Me')
+
+    # Timeline of my CIS Journey
+    st.subheader('🗺️ My Journey')
+    with st.expander('2025 - Present: Medgar Evers College'):
+        st.write('''
+        - Major: Computer Information Systems 💻
+        - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, and AI
+        - Activities: Anime Watcher, Tennis Player, and Video Game Lover
+        ''')
+        
+        st.subheader('Interests & Hobbies 🏀')
+        interests = ['Anime', 'Video games', 'Cosplaying', 'Tennis', 'Travel', 'Pets']
+
+        # Display the interests in columns
+        cols = st.columns(3)
+        for i, interest in enumerate(interests):
+            with cols[i % 3]:
+                st.info(f'🔷 {interest}')
+
+
+elif page == '🧳 Projects':
+    st.title('My Projects')
+    st.write('Here are some projects I have worked on:')
+
+    # Project 1
+    with st.container():
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            st.image('project_image.png')  # Replace with your actual image path
+        with col2:
+            st.write('Project description goes here!')
+ st.write('Here are some projects I have worked on:')
   # Project 1
     with st.container():
     col1, col2 = st.columns([1, 2])
