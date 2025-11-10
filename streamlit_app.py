@@ -117,7 +117,7 @@ elif page == '🧳 Projects':
         with col1:
             st.image('https://img2.clipart-library.com/27/tennis-clip-art-images/tennis-clip-art-images-11.jpg')  
         with col2:
-            st.write('Project description goes here!')
+            st.write('To be completely honest i haven't really worked on any but here are some pictures of my hobbies!')
  st.write('Here are some projects I have worked on:')
   # Project 1
     with st.container():
