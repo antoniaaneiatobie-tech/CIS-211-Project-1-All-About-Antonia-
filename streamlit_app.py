@@ -63,7 +63,7 @@ with col2:
 
 # About page
 elif page =='😊 About':
-    st.title('About Me')
+      st.title('About Me')
 
 
 # Timeline of my CIS Journey
