@@ -83,8 +83,6 @@ with st.expander('2025 - Present: Medgar Evers College'):
     with cols[i % 3]:
       st.info(f'🔷 {interest}')
 
-on:')
-
 elif page == '🧳 Projects':
   st.title('My Projects')
   st.write('Here are some projects I have worked on:')
