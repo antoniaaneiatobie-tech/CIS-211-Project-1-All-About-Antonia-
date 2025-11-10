@@ -115,7 +115,7 @@ elif page == '🧳 Projects':
     with st.container():
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image('project_image.png')  # Replace with your actual image path
+            st.image('https://img2.clipart-library.com/27/tennis-clip-art-images/tennis-clip-art-images-11.jpg')  
         with col2:
             st.write('Project description goes here!')
  st.write('Here are some projects I have worked on:')
@@ -124,5 +124,5 @@ elif page == '🧳 Projects':
     col1, col2 = st.columns([1, 2])
   
     with col1:
-        st.image('')
+        st.image('https://static.wikia.nocookie.net/voicelines/images/6/60/V3_Junko_Enoshima_Cosplay.png/revision/latest?cb=20210108191916')
 
