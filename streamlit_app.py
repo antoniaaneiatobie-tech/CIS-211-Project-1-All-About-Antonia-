@@ -63,7 +63,7 @@ with col2:
 
 # About page
 elif page =='😊 About':
-      st.title('About Me')
+    st.title('About Me')
 
 
 # Timeline of my CIS Journey
@@ -74,5 +74,24 @@ with st.expander('2025 - Present: Medgar Evers College'):
           - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems and AI
           - Activities: Anime Watcher, Tennis Player and Video game lover
           ''')
-  with st.expander('')
+    st.subheader('Interests & Hobbies 🏀')
+  interests = ['Anime', 'Video games', 'Cosplaying', 'Tennis', 'Travel', 'Pets']
+
+  # Display the interests in columns
+  cols = st.columns(3)
+  for i, interest in enumerate(interests):
+    with cols[i % 3]:
+      st.info(f'🔷 {interest}')
+
+on:')
+
+elif page == '🧳 Projects':
+  st.title('My Projects')
+  st.write('Here are some projects I have worked on:')
+  # Project 1
+    with st.container():
+    col1, col2 = st.columns([1, 2])
   
+    with col1:
+        st.image('')
+
