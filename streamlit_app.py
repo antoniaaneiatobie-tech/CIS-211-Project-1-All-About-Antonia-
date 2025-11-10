@@ -62,7 +62,7 @@ with col2:
 
 
 # About page
-elif page =='😊 About':
+elif page == '😊 About':
     st.title('About Me')
 
 
@@ -97,7 +97,7 @@ with st.expander('2025 - Present: Medgar Evers College'):
         - Activities: Anime Watcher, Tennis Player, and Video Game Lover
         ''')
         
-        st.subheader('Interests & Hobbies 🏀')
+        st.subheader('Interests & Hobbies 🎮')
         interests = ['Anime', 'Video games', 'Cosplaying', 'Tennis', 'Travel', 'Pets']
 
         # Display the interests in columns
@@ -123,6 +123,47 @@ elif page == '🧳 Projects':
     with st.container():
     col1, col2 = st.columns([1, 2])
   
-    with col1:
+        with col1:
         st.image('https://static.wikia.nocookie.net/voicelines/images/6/60/V3_Junko_Enoshima_Cosplay.png/revision/latest?cb=20210108191916')
+
+  elif page == '🛠 Skills':
+  st.title('Technical Skills')
+
+  # Skills with progress bars
+  st.subheader('Programming Languages')
+
+  skills_data = {
+    'Python' : 85,
+    'HTML/CSS' : 70,
+    'JavaScript' : 60,
+    'SQL' : 50,
+    'Technical Writing' : 40
+  }
+
+  for skill, level in skills_data.items():
+    col1, col2 = st.columns([1,3])
+    with col1:
+      st.write(skill)
+    with col2:
+      st.progress(level/100)
+
+  st.subheader('Tools & Technologies')
+
+  col1, col2, col3 = st.columns(3)
+  with col1:
+    st.success('Excel')
+    st.info('Word')
+    st.warning('Access')
+
+  with col2:
+    st.success('PowerPoint')
+    st.info('Google Docs')
+    st.warning('ChatGPT/AI Tools')
+    
+  with col3:
+    st.success('Presentations')
+    st.info('Writing')
+    st.warning('Social Media')
+    
+        
 
