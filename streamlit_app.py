@@ -62,7 +62,7 @@ with col2:
 
 
 # About page
-elif page == '😊 About':
+elif page =='😊 About':
   st.title('About Me')
 
 
