@@ -131,7 +131,41 @@ skills_data = {
   'Collaboration' : 100
   }
 
+for skill, level in skills_data.items():
+  col1, col2 = st.column([1, 3]) 
+  with col1:
+    st.write(skill)
+  with col2:
+    st.progress(level/100)
 
+
+st.subheader('My Strengths')
+
+col1, col2, col3, col4, col5 = st.columns (5)
+with col1:
+  st.success('Problem Solving')
+  st.info('fixing problems')
+  st.warning('Takes a few tries')
+
+with col2:
+  st.success('Critical Thinking')
+  st.info('Thinking deeper')
+  st.warning('May take a while')
+
+with col3:
+  st.success('Creativity')
+  st.info('Love coming up with new things')
+  st.warning('Creativity takes patience')
+
+with col4:
+  st.success('Active Listening')
+  st.info('I like listening to new ideas and opinions')
+  st.warning('Shows that your interested in new things')
+
+with col5:
+  st.success('Collaboration')
+  st.info('Working with other people')
+  st.warning('Shows you like working with others')
 
 
      
