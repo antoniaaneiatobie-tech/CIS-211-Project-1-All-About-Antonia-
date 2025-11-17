@@ -185,7 +185,7 @@ st.download_button(
 elif page == '📩 Contact':
   st.title("Let's Connect!")
 
-  col1 = st.columns(1)
+  col1, = st.columns(1)
 
  with col1:
     st.subheader('Send me a message.')
@@ -193,9 +193,35 @@ elif page == '📩 Contact':
     st.write('''
         📧 **Email:** Antonia.aneia.tobie@gmail.com
 
+        👩‍💻 **Github:** [https://github.com/antoniaaneiatobie-tech]
+
+        📷 **Instagram:** [@savagekitty500(https://instagram.com)]
+
 
     ''')
-    
 
+
+    # Fun interative element
+    st.subheader('Current Status')
+
+    status = st.selectbox(
+        "I'm currently:",
+        [
+            '👩‍💻 Coding',
+            '📕 Studying',
+            '🍕 Eating Food',
+            '🎮 Gaming',
+            '😴 Sleeping'
+        ]
+    )
+    
+st.info(f'Status: {status}')
+
+    # Footer
+    st.write('---')
+    st.markdown(
+        f'<center>Made with 💗 using Streamlit | © {11/17.now().2025} Antonia Tobie </center>',
+        unsafe_allow_html = True
+    )
      
  
