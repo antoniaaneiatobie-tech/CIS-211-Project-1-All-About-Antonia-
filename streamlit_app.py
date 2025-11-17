@@ -83,7 +83,7 @@ with st.expander('2025 - Present: Medgar Evers College'):
     with cols[i % 3]:
       st.info(f'🔷 {interest}')
 
-  elif page == '🧳 Projects':
+ elif page == '🧳 Projects':
   st.title('My Projects')
  elif page == '😊 About':
     st.title('About Me')
@@ -166,6 +166,20 @@ with col5:
   st.success('Collaboration')
   st.info('Working with other people')
   st.warning('Shows you like working with others')
+
+elif page == '📝 Resume':
+  st.title('Resume')
+
+# Read PDF from my GitHub repository
+with open('my_resume.pdf', 'rb') as pdf_file:
+  PDFbyte = pdf_file.read()
+
+st.download_button(
+  label ='🔻 Download Full Resume (PDF)',
+  data = PDFbyte,
+  file_name = 'Antonia Tobie Resume.pdf',
+  mime ='application/pdf'
+)
 
 
      
