@@ -83,9 +83,10 @@ with st.expander('2025 - Present: Medgar Evers College'):
     with cols[i % 3]:
       st.info(f'🔷 {interest}')
 
- elif page == '🧳 Projects':
+elif page == '🧳 Projects':
   st.title('My Projects')
- elif page == '😊 About':
+
+elif page == '😊 About':
     st.title('About Me')
 
     # Timeline of my CIS Journey
@@ -119,29 +120,29 @@ elif page == '🧳 Projects':
         with col2:
             st.write('To be completely honest i haven't really worked on any but here are some pictures of my hobbies!')
 
-
+elif page == '🛠️ Skills':
 # Skills with progress bars 
-st.subheader('My Skills')
+  st.subheader('My Skills')
 
-skills_data = {
-  'Problem Solving' : 85,
-  'Critical Thinking' : 75
-  'Creativity' : 100
-  'Active Listening' : 95
-  'Collaboration' : 100
+  skills_data = {
+    'Problem Solving' : 85,
+    'Critical Thinking' : 75
+    'Creativity' : 100
+    'Active Listening' : 95
+    'Collaboration' : 100
   }
 
 for skill, level in skills_data.items():
-  col1, col2 = st.column([1, 3]) 
-  with col1:
+    col1, col2 = st.column([1, 3]) 
+    with col1:
     st.write(skill)
   with col2:
     st.progress(level/100)
 
 
-st.subheader('My Strengths')
+  st.subheader('My Strengths')
 
-col1, col2, col3, col4, col5 = st.columns (5)
+  col1, col2, col3, col4, col5 = st.columns (5)
 with col1:
   st.success('Problem Solving')
   st.info('fixing problems')
