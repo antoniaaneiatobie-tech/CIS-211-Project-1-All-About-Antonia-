@@ -182,5 +182,20 @@ st.download_button(
 )
 
 
+elif page == '📩 Contact':
+  st.title("Let's Connect!")
+
+  col1 = st.columns(1)
+
+ with col1:
+    st.subheader('Send me a message.')
+
+    st.write('''
+        📧 **Email:** Antonia.aneia.tobie@gmail.com
+
+
+    ''')
+    
+
      
  
