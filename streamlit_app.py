@@ -107,7 +107,7 @@ elif page == "🛠️ Skills":
         "Collaboration": 100
     }
 
- for skill, level in skills_data.items():
+     for skill, level in skills_data.items():
     col1, col2 = st.columns([1,5])
     with col1:
       st.write(skill)
