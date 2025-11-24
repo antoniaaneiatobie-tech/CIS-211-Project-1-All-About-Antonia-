@@ -195,9 +195,10 @@ elif page == '📩 Contact':
     # Footer
     st.write('---')
     st.markdown(
-        f'<center>Made with 💗 using Streamlit | © {datetime.now().2025} Antonia Tobie </center>',
-        unsafe_allow_html = True
-    )
+    f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Antonia Tobie </center>',
+    unsafe_allow_html=True
+)
+
 
 
 
