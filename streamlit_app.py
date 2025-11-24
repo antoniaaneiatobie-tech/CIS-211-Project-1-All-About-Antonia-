@@ -54,7 +54,7 @@ if page == '🏠 Home':
         🩵 **Fun Fact:** I love watching Anime and playing video games!
         ''')
     with col2:
-        st.image('Tengen .JPG', use_column_width=True)
+        st.image('https://preview.redd.it/if-there-was-a-cure-for-demons-why-didnt-they-turn-tengen-v0-bco6elvf7xcd1.jpeg?width=640&crop=smart&auto=webp&s=55b7d9736656a9e268c5d9a0996e560f522bf689', use_column_width=True)
 
 # -------------------------
 # 😊 About Page
