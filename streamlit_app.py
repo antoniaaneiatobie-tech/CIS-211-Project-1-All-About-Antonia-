@@ -54,7 +54,7 @@ if page == '🏠 Home':
         🩵 **Fun Fact:** I love watching Anime and playing video games!
         ''')
     with col2:
-        st.image('https://github.com/antoniaaneiatobie-tech/CIS-211-Project-1-All-About-Antonia-/blob/main/%20Tengen%20.JPG?raw=true', use_column_width=True)
+        st.image('Tengen .JPG', use_column_width=True)
 
 # -------------------------
 # 😊 About Page
