@@ -107,98 +107,98 @@ elif page == "🛠️ Skills":
         "Collaboration": 100
     }
 
-for skill, level in skills_data.items():
-    col1, col2 = st.columns([1,5])
-
-    with col1:
-      st.write(skill)
-    with col2:
-      st.progress(level/100)
-
-      st.subheader('Tools & Technologies')
-
-      col1, col2, col3, col4, col5, = st.columns(5)
-      with col1:
-        st.success('Problem solving')
-        st.info('Fixing Problems')
-        st.warning('Takes a few tries')
-
-      with col2:
-        st.success('Critical thinking')
-        st.info('Thinking deeper')
-        st.warning('may take a while')
+    for skill, level in skills_data.items():
+        col1, col2 = st.columns([1,5])
     
-      with col3:
-        st.success('Creativity')
-        st.info('coming up with new things')
-        st.warning('Creativity takes patience')
- 
-      with col4:
-        st.success('Active listening')
-        st.info('I like listening to new ideas')
-        st.warning('Shows interest in new things')
- 
-      with col5:
-        st.success('Collaboration')
-        st.info('Working with others')
-        st.warning('Teamwork')
+        with col1:
+          st.write(skill)
+        with col2:
+          st.progress(level/100)
+    
+          st.subheader('Tools & Technologies')
+    
+          col1, col2, col3, col4, col5, = st.columns(5)
+          with col1:
+            st.success('Problem solving')
+            st.info('Fixing Problems')
+            st.warning('Takes a few tries')
+    
+          with col2:
+            st.success('Critical thinking')
+            st.info('Thinking deeper')
+            st.warning('may take a while')
+        
+          with col3:
+            st.success('Creativity')
+            st.info('coming up with new things')
+            st.warning('Creativity takes patience')
+     
+          with col4:
+            st.success('Active listening')
+            st.info('I like listening to new ideas')
+            st.warning('Shows interest in new things')
+     
+          with col5:
+            st.success('Collaboration')
+            st.info('Working with others')
+            st.warning('Teamwork')
 
 
 
-  elif page == "📝 Resume":
-      st.title('Resume')
-  # Read PDF from my GitHub repository
-  with open('Antonia Tobie resume.pdf', 'rb') as pdf_file:
-    PDFbyte = pdf_file.read()
-  
-  st.download_button(
-    label ='🔻 Download Full Resume (PDF)',
-    data = PDFbyte,
-    file_name = 'Antonia Tobie resume.pdf',
-    mime ='application/pdf'
-  )
+elif page == "📝 Resume":
+    st.title('Resume')
+    # Read PDF from my GitHub repository
+    with open('Antonia Tobie resume.pdf', 'rb') as pdf_file:
+        PDFbyte = pdf_file.read()
+        
+        st.download_button(
+        label ='🔻 Download Full Resume (PDF)',
+        data = PDFbyte,
+        file_name = 'Antonia Tobie resume.pdf',
+        mime ='application/pdf'
+        )
 
- elif page == '📩 Contact':
-  st.title("Let's Connect!")
-
-  col1, = st.columns(1)
-
-  with col1:
-    st.subheader('Send me a message.')
-
-    st.write('''
-        📧 **Email:** Antonia.aneia.tobie@gmail.com
-
-        👩‍💻 **Github:** [https://github.com/antoniaaneiatobie-tech](https://github.com)
-
-        📷 **Instagram:** [@savagekitty](https://instagram.com)
-
-    ''')
-
-    # Fun interative element
-    st.subheader('Current Status')
-
-    status = st.selectbox(
-        "I'm currently:",
-        [
-            '👩‍💻 Coding',
-            '📕 Studying',
-            '🍕 Eating food',
-            '🎮 Gaming',
-            '😴 Sleeping'
-        ]
-    )
-
-
-    st.info(f'Status: {status}')
-
+elif page == '📩 Contact':
+    st.title("Let's Connect!")
+    
+    col1, = st.columns(1)
+    
+    with col1:
+        st.subheader('Send me a message.')
+        
+        st.write('''
+            📧 **Email:** Antonia.aneia.tobie@gmail.com
+        
+            👩‍💻 **Github:** [https://github.com/antoniaaneiatobie-tech](https://github.com)
+        
+            📷 **Instagram:** [@savagekitty](https://instagram.com)
+        
+        ''')
+        
+        # Fun interative element
+        st.subheader('Current Status')
+        
+        status = st.selectbox(
+            "I'm currently:",
+            [
+                '👩‍💻 Coding',
+                '📕 Studying',
+                '🍕 Eating food',
+                '🎮 Gaming',
+                '😴 Sleeping'
+            ]
+        )
+        
+        
+        st.info(f'Status: {status}')
+    
     # Footer
     st.write('---')
     st.markdown(
         f'<center>Made with 💗 using Streamlit | © {datetime.now().2025} Antonia Tobie </center>',
         unsafe_allow_html = True
     )
-    
+
 
 
    
