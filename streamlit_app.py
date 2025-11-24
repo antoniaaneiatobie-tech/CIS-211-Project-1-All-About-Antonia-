@@ -145,7 +145,7 @@ for skill, level in skills_data.items():
 
 
 
-  elif page == '📝 Resume':
+  elif page == "📝 Resume":
       st.title('Resume')
   # Read PDF from my GitHub repository
   with open('Antonia Tobie resume.pdf', 'rb') as pdf_file:
