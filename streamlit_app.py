@@ -91,7 +91,7 @@ elif page == '🧳 Projects':
             st.image('https://img2.clipart-library.com/27/tennis-clip-art-images/tennis-clip-art-images-11.jpg')
         with col2:
             st.write('To be honest, I haven’t created many projects yet — but here are some hobbies I enjoy!')
-
+            st.image('https://static0.cbrimages.com/wordpress/wp-content/uploads/2024/11/jinshi-and-maomao.jpg')
 # -------------------------
 # 🛠️ Skills Page
 # -------------------------
