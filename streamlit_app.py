@@ -115,7 +115,7 @@ for skill, level in skills_data.items():
     with col2:
       st.progress(level/100)
 
-  st.subheader('Tools & Technologies')
+      st.subheader('Tools & Technologies')
 
   col1, col2, col3, col4, col5, = st.columns(5)
   with col1:
