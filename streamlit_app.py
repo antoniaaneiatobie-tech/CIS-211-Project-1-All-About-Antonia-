@@ -171,7 +171,7 @@ elif page == '📩 Contact':
         
             👩‍💻 **Github:** [https://github.com/antoniaaneiatobie-tech](https://github.com)
         
-            📷 **Instagram:** [@savagekitty](https://instagram.com)
+            📷 **Instagram:** https://www.instagram.com/savagekitty500/?hl=en
         
         ''')
         
